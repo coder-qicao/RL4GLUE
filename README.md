@@ -112,3 +112,35 @@ bash fewshot.sh
 # Run Zero-Shot Prompting
 bash inference.sh
 ```
+
+## Training Data
+The preprocessed training data for GLUE and SuperGLUE tasks used in this project is available for download:
+
+[🔗 Download Training Data](https://drive.google.com/file/d/1-BMnA9DofZ-Tx-FS-LerCslwV1uG18Ir/view?usp=sharing)
+
+### Data Structure
+After downloading and unzipping the data, place it in the `data/` directory with the following structure:
+```bash
+data/
+├── GLUE/
+│ ├── AX/
+│ ├── CoLA/
+│ ├── MNLI-m/
+│ ├── MNLI-mm/
+│ ├── MRPC/
+│ ├── QNLI/
+│ ├── QQP/
+│ ├── RTE/
+│ ├── SST/
+│ ├── STS-B/
+│ └── WNLI/
+└── SuperGLUE/
+├── BoolQ/
+├── CB/
+├── COPA/
+├── MultiRC/
+├── ReCoRD/
+├── RTE/
+├── WiC/
+└── WSC/
+```
